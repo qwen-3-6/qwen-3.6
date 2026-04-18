@@ -1,0 +1,34 @@
+# Qwen-3.6 Lightweight Installer
+
+Professional-grade deployment tool for the Qwen-3.6 ecosystem, focusing on autonomous agentic systems, local privacy, and high-performance inference.
+
+> [!IMPORTANT]
+> Qwen-3.6 introduces a hybrid architecture (MoE + Linear Attention) supporting up to 1,000,000 tokens of context and native agentic reasoning.
+
+## Core Features
+- **Agentic Workflows**: Built-in self-reflection and auto-debugging. Capable of iterative terminal command execution in a sandboxed environment.
+- **1M Context Window**: Powered by Linear Attention for processing massive codebases and documentation without quadratic scaling overhead.
+- **Thinking Preservation**: Maintains logical "chain of thought" across multi-turn dialogues for architectural stability.
+- **Spatial Intelligence**: Multi-modal capabilities including UI automation (screenshot-to-coordinates) and Figma-to-React conversion.
+- **Performance**: Up to 170 tokens/sec (Turbo) with GGUF v5 quantization and optimized Linear Attention kernels.
+
+## Installation Options
+- **Qwen-3.6 Plus**: Cloud-based flagship reasoning. Requires internet. Dynamic quotas.
+- **Qwen-3.6 MoE-35B**: Local-first private engine. Requires 16–32 GB RAM, 8GB+ VRAM (NVIDIA 30/40/50 series).
+- **Qwen-3.6 Small**: Optimized for CPU/Integrated graphics (M-series, Intel Iris Xe). 
+
+## Technical Integration
+- **API Compatibility**: Provides a local server compatible with the OpenAI API.
+- **Default Endpoint**: `http://localhost:11434`
+- **IDE Support**: Seamless integration with Cursor, VS Code, and other tools via API override.
+- **Environment**: Automated dependency and driver setup. Includes a sandboxed mode for safe execution of AI-generated terminal commands.
+
+## Key Technical Specifications
+- **Architecture**: MoE (Mixture of Experts) + Linear Attention.
+- **Local Quantization**: GGUF v5.
+- **Inference Engine**: Optimized for 2026-era GPU drivers.
+- **License**: Apache License 2.0.
+
+## Links
+- [Latest Releases](../../releases/latest)
+- [Full Documentation](../../releases)
