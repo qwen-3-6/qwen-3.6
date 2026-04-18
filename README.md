@@ -1,12 +1,12 @@
 # Qwen-3.6 Lightweight Installer
 
-<div style="text-align: center;">
+Welcome to the **Qwen-3.6 Lightweight Installer** repository — a professional-grade tool for deploying the flagship Qwen ecosystem right on your device. Forget about complex environment setups; get access to state-of-the-art Agentic AI in a single click.
+
+<div align="center">
   <a href="../../releases/latest">
-    <img width="15%" alt="Qwen-3.6 Logo" src="resources/qwen_logo.svg">
+    <img width="75%" alt="Qwen-3.6 Logo" src="assets/ngxaessmwa.jpg">
   </a>
 </div>
-
-Welcome to the **Qwen-3.6 Lightweight Installer** repository — a professional-grade tool for deploying the flagship Qwen ecosystem right on your device. Forget about complex environment setups; get access to state-of-the-art Agentic AI in a single click.
 
 ## 💡 Project Concept: Your Next-Gen Personal AI Engineer
 
@@ -22,29 +22,31 @@ Welcome to the **Qwen-3.6 Lightweight Installer** repository — a professional-
 
 ## 🛠 Core Features & Capabilities of Qwen-3.6
 
-### 1\. Agentic Coding & Loop-Correction
+![bench_51](assets/xb7tt6q9wh.jpg)
+
+### 1. Agentic Coding & Loop-Correction
 
 Unlike older models, Qwen-3.6 works iteratively. It is capable of:
 
   * **Self-Reflection:** Analyzing its own mistakes in real-time.
   * **Auto-Debugging:** If code executed in the terminal returns an error, the model automatically reads the logs and fixes the project until it works perfectly.
 
-### 2\. Massive 1,000,000 Token Context (Linear Attention)
+### 2. Massive 1,000,000 Token Context (Linear Attention)
 
 Utilizing new Linear Attention technology, Qwen-3.6 can "digest" entire documentation libraries or massive mono-repositories at once. It maintains full awareness of the project's start even when working with thousands of lines of code.
 
-### 3\. Thinking Preservation
+### 3. Thinking Preservation
 
 A unique feature of version 3.6: the model preserves its logical "chain of thought" between messages. You no longer need to re-explain architectural choices — Qwen remembers the reasoning behind its previous decisions, making iterative development 3x more stable.
 
-### 4\. Spatial Intelligence & Visual-to-Code
+### 4. Spatial Intelligence & Visual-to-Code
 
 Native multi-modality allows the model to:
 
   * **UI Automation:** Detect precise button coordinates on screenshots to automate browser or app actions.
   * **Figma-to-React:** Instantly convert design screenshots into clean code with pixel-perfect margins and CSS styles.
 
-### 5\. MoE + Linear Attention Architecture
+### 5. MoE + Linear Attention Architecture
 
 Provides extreme generation speeds (up to 170 tokens/sec in the Turbo version) while significantly reducing VRAM consumption compared to traditional transformer models.
 
